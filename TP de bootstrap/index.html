@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+        <style>
+          .paddingNav {
+            padding: 0.5em 1em 0.5em 1em;
+          }
+          .marginFormCheck {
+            margin: 1em 1em 1em 1em;
+          }
+        
+        </style>
+</head>
+
+<body>
+
+<!-- Empieza barra de navegacion -->
+  
+<nav  class="navbar navbar-expand-sm bg-light navbar-light paddingNav">
+    <ul class="navbar-nav">
+        <li class="navbar-brand">Codo a Codo</li>
+      <li class="nav-item">
+        <a class="nav-link active" href="#">Inicio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Desactivado</a>
+      </li>
+    </ul>
+<div class="ms-auto"> 
+  
+       <form class="d-flex" action="/action_page.php">
+        <input class="form-control me-2" type="text" placeholder=" Buscar ">
+        <button class="btn btn-outline-success" type="submit"> Buscar </button>
+      </form>
+    
+    </div>
+  </nav>
+  <!-- termina barra de navegacion-->
+   
+  <!-- empieza grid-->
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-4">
+        <!--First column starts -->
+        <div class="card">
+          <img class="card-img-top" src="./html5logoo.jpg" height="200em" alt="Logo de html">
+          <div class="card-body">
+            <h5 class="card-title">titulo 1</h5>
+            <p class="card-text">Contenido de card</p>
+            <p class="card-text"><small class="text-muted">Ultima actualizacion 1</small></p>
+    </blockquote>
+          </div>
+        </div>
+        <!--first column ends-->
+      </div>
+      <div class="col-12 col-md-4">
+        <!--Second column starts -->
+        <div class="card">
+          <img class="card-img-top" src="./csslogoo.jpg" height="200em" alt="Logo de css">
+          <div class="card-body">
+            <h5 class="card-title">titulo 2</h5>
+            <p class="card-text">Contenido de card</p>
+            <p class="card-text"><small class="text-muted">Ultima actualizacion 1</small></p>
+    </blockquote>
+          </div>
+        </div>
+        <!--second column ends-->
+      </div>
+      <div class="col-12 col-md-4">
+        <!--third column starts -->
+        <div class="card">
+          <img class="card-img-top" src="./bootstraplogo2.jpg" height="200em" alt="Logo de bootstrap">
+          <div class="card-body">
+            <h5 class="card-title">titulo 3</h5>
+            <p class="card-text">Contenido de card</p>
+            <p class="card-text"><small class="text-muted">Ultima actualizacion 1</small></p>
+    </blockquote>
+          </div>
+        </div>
+        <!--third column ends-->
+      </div>
+    </div>
+  </div>
+ <!--Termina grid-->
+
+ <!---Comienza formulario email -->
+ <form>
+  <div class="form-group paddingNav">
+    <label>Email</label>
+    <input type="email" class="form-control">
+    <small class="form-text text-muted">Nunca comparta su email.</small>
+  </div>
+ 
+  <div class="form-group paddingNav">
+    <label>Contraseña</label>
+    <input type="password" class="form-control">
+  </div>
+  
+  <div class="form-check marginFormCheck">
+    <input class="form-check-input" type="checkbox" id="gridCheck">
+    <label class="form-check-label" for="gridCheck">
+      Verificar
+    </label>
+  </form>
+  </div>
+ <div class="marginFormCheck"> 
+  <button type="submit" class="btn btn-primary">Enviar</button></div>
+<!--termina form-->
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+</body>
+
+</html>
